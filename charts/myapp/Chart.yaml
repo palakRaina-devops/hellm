@@ -1,0 +1,10 @@
+apiVersion: v2
+name: myapp
+version: 0.1.0
+appVersion: "1.0"
+description: Parent chart for myapp
+
+dependencies:
+  - name: redis
+    version: "17.3.11"
+    repository: "https://charts.bitnami.com/bitnami"
